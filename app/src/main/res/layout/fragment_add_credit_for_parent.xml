@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adamgarcia.enu.fragments.EtudiantFragment"
+    android:background="#FFFFFF">
+
+
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:text="Ajouter des credit"/>
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/ET_numberCreditAdd_parent"
+            android:layout_width="200dp"
+            android:textAlignment="center"
+            android:layout_height="30dp"
+            android:hint="Nombre de crédit"
+            android:layout_gravity="center"
+            android:background="@drawable/border_edit"
+            android:inputType="numberSigned" />
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/ET_CB_addCredit_parent"
+            android:layout_width="200dp"
+            android:textAlignment="center"
+            android:layout_height="30dp"
+            android:hint="Carte Bancaire"
+            android:layout_gravity="center"
+            android:background="@drawable/border_edit"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/BU_addCreditValidation"
+            android:layout_marginTop="15dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:text="Ajouter les crédits"/>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

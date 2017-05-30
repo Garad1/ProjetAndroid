@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adamgarcia.enu.fragments.EtudiantFragment"
+    android:background="#FFFFFF">
+
+
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:text="Nom Prènom"/>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ListView
+                android:layout_marginTop="15dp"
+                android:id="@+id/LV_AllCourseForOneChildren"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+            </ListView>
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

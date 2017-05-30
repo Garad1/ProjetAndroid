@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_parent_acceuil"
+            android:icon="@drawable/ic_action_acceuil"
+            android:title="Acceuil" />
+        <item
+            android:id="@+id/nav_parent_mesEnfants"
+            android:icon="@drawable/ic_action_children"
+            android:title="Mes enfants" />
+        <item
+            android:id="@+id/nav_parent_Cours"
+            android:icon="@drawable/ic_action_book"
+            android:title="Cours" />
+
+
+        <item
+            android:id="@+id/nav_parent_demandes"
+            android:icon="@drawable/ic_action_demandes"
+            android:title="Demandes" />
+
+    </group>
+
+    <item android:title="Compte">
+        <menu>
+            <item
+                android:id="@+id/nav_parent_monCompte"
+                android:icon="@drawable/ic_action_moncompte"
+                android:title="Mon compte" />
+            <item
+                android:id="@+id/nav_parent_recharger"
+                android:icon="@drawable/ic_action_dollard"
+                android:title="Ajouter crédit" />
+            <item
+                android:id="@+id/nav_parent_deconnexion"
+                android:icon="@drawable/ic_action_disconnect"
+                android:title="Déconnexion" />
+        </menu>
+    </item>
+
+</menu>
